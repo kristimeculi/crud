@@ -1,5 +1,9 @@
 # crud
 
-npm init -y
-npm i express express-validator mysql2 cors dotenv jsonwebtoken -S
-npm i nodemon -D
+create .env file 
+
+then run in terminal
+- npm i nodemon -D
+
+Project is ready you can run:
+- npm start
