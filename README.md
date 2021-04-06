@@ -1,9 +1,11 @@
-# crud
+# NodeJs crud
+1. git clone https://github.com/kristimeculi/crud.git
 
-create .env file 
+2. create .env file 
 
-then run in terminal
+3. then run in terminal
 - npm i nodemon -D
 
-Project is ready you can run:
+4.Project is ready you can run:
 - npm start
+
