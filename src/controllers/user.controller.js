@@ -27,7 +27,7 @@ class UserController {
     getUserById = async (req, res, next) => {
         const user = await UserModel.findOne({ id: req.params.id });
         if (!user) {
-            throw new HttpException(404, 'User not found','i dont know');
+            throw new HttpException(404, 'User not found');
         }
 
         const { password, ...userWithoutPassword } = user;

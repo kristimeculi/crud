@@ -1,7 +1,6 @@
 {
   "name": "crud",
   "version": "1.0.0",
-  "description": "",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -23,5 +22,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristimeculi/crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kristimeculi/crud/issues"
+  },
+  "homepage": "https://github.com/kristimeculi/crud#readme",
+  "description": ""
 }
